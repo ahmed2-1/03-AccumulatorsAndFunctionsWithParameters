@@ -69,7 +69,7 @@ def run_test_sum_of_digits():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TO DO: 2 (continued).
+    # TODO: 2 (continued).
     # Below this comment, add 3 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
