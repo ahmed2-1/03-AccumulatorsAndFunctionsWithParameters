@@ -17,6 +17,8 @@ def main():
     two_circles()
     circle_and_rectangle()
     lines()
+
+
 def two_circles():
     """
     -- Constructs an rg.RoseWindow.
@@ -130,7 +132,7 @@ def lines():
     # DONE: 4. Implement and test this function.
     window = rg.RoseWindow()
     line1 = rg.Line(rg.Point(5, 5), rg.Point(395, 5))
-    line2 =rg.Line(rg.Point(395, 5), rg.Point(5, 295))
+    line2 = rg.Line(rg.Point(395, 5), rg.Point(5, 295))
     line2.thickness = 10
     line1.attach_to(window)
     line2.attach_to(window)
@@ -144,4 +146,6 @@ def lines():
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
+
 main()
